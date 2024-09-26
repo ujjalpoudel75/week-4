@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: ;
+    background-color: #eef4d8;
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    padding: 15px 0 15px 8rem;
+    text-align: center;
+  }
+  section {
+      margin: 20px;
+      padding:5px 0 20px 40px;
+      background-color: wheat;
+      border: #333;
+      box-shadow: 2px 2px 5px blue;
+      border-radius: 10px;
+  }
+  section h2{
+      color:#009933;
+      margin-border: 10px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .profile {
+    background-color: #fff;
+    border: 5px solid #ddd;
+    margin: 15px;
+    padding: 15px;
+    width: 250px;
+    text-align: center;
+  }
+  
+  .profile img {
+    width: 100px;
+    height: 100px;
+    border-radius: 60%;
+    margin-bottom: 10px;
+  }
+  
+  /* Unique Styles for Student 1 */
+  #student1 {
+    background-color: #ffcccc;
+  }
+  
+  #student1 h2 {
+    color: #cc0000;
+  }
+  
+  #student1 img {
+    border: 2px solid #cc0000;
+  }
+  
+  /* Unique Styles for Student 2 */
+  #student2 {
+    background-color: #ccffcc;
+  }
+  
+  #student2 h2 {
+    color: #009933;
+  }
+  
+  #student2 img {
+    border: 2px solid #009933;
+  }
+  
+  /* Unique Styles for Student 3 */
+  #student3 {
+    background-color: #ccccff;
+  }
+  
+  #student3 h2 {
+    color: #3333cc;
+  }
+  
+  #student3 img {
+    border: 2px solid #3333cc;
+  }
+  
+  /* Additional styles for the rest of the students can follow a similar pattern *
